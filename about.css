@@ -344,7 +344,46 @@
 	line-height: 1.4em;
 	color: var(--black-2);
 }
+@me
+rStory__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.ourStory__title,
+.ourGoals__title {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--black-1);
+	margin-bottom: 1rem;
+}
+.ourStory__subtitle {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--black-1);
+	margin-bottom: 2rem;
+}
+.ourStory__text,
+.ourGoals__text {
+	font-size: 1.4rem;
+	line-height: 1.4em;
+	color: var(--black-2);
+}
 @media only screen and (min-width: 768px) {
+	.ourStory__wrapper {
+		flex-direction: row;
+		gap: 3rem;
+	}
+	.ourStory__img,
+	.ourStory__info {
+		flex: 1;
+	}
+	.ourStory__title,
+	.ourGoals__title {
+		font-size: 3.6rem;
+	}
+	.ourStory__subtitle {
+		font-size: 1.8rem;dia only screen and (min-width: 768px) {
 	.ourStory__wrapper {
 		flex-direction: row;
 		gap: 3rem;
